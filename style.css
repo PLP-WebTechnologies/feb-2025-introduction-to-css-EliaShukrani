@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* --- Section Headings (Selector #1) --- */
+  h2 {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  
+  /* --- Image Styling (Selector #2) --- */
+  img {
+    border-radius: 38px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  
+  /* --- Table Styling (ID Selector #3) ---
+  #contact-table {
+   
+    width: 100%;
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  } */
+/*   
+  #contact-table th,
+  #contact-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  } */
+  
+  #contact-table th {
+    background-color: #1a73e8;
+    color: white;
+  }
+  
+  /* --- Form Container Styling --- */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  /* --- Input Styling --- */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #155ab6;
+  }
+  
+  /* --- Class selector example --- */
+  .section-block {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fefefe;
+  }
+  
